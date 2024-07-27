@@ -45,7 +45,7 @@ function App() {
         <h1 className='text-center'>Contact Us</h1>
         <div id='error'></div>
         
-        <form onSubmit={handleSubmit()} noValidate>
+        <form onSubmit={() => handleSubmit()} noValidate>
 
           <input type='text' placeholder='Username' id='name' />
           <br></br>
